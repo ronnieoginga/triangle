@@ -7,3 +7,6 @@ if(side1+side2>side3 && side2+side3>side1 && side1+side3>side2) {
   if (side1==side2&&side1==side3) {
     answer.textContent='Equilateral: All sides are equal!';
 }
+else if (side one===side two||side two===side three||side one===side three){
+  answer.textContent='Isosceles: Two sides are equal!'
+}
