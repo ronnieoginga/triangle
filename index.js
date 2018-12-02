@@ -14,3 +14,12 @@ else if (side one===side two||side two===side three||side one===side three){
 else{
    answer.textContent="Scalene: No sides are equal!";
  }
+}
+else{
+  answer.textContent="Not a triangle";
+}
+}
+function reset(){
+  var side1=parseInt(document.getElementById('side one').value);
+  
+}
