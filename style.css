@@ -4,5 +4,21 @@ body {
     background-color: #cccccc;
 }
 .form{
-
+float:right;
+background-color: lightgrey;
+   width: 300px;
+   border: 2px solid green;
+   padding: 15px;
+   margin: 10px;
+}
+#{
+  padding-top: 100px;
+}
+#Submit{
+  height: 20px;
+  width: 100px;
+}
+.form{
+  float: right;
+  clear: right;
 }
