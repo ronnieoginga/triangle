@@ -7,7 +7,7 @@ var answer=document.querySelector('#answer');
   if (sideone==sidetwo&&sideone==sidethree) {
     answer.innerHTML="Equilateral";
 }
-else if (sideone===sidetwo||sidetwo===sidethree||sideone===sidethree){
+else if (sideone===sidetwo || sidetwo===sidethree || sideone===sidethree){
   answer.innerHTML="Isosceles";
 }
 
