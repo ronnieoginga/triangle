@@ -1,27 +1,22 @@
 function result(){
-var side one=parseInt(document.getElementById('side one').value);
-var side two=parseInt(document.getElementById('side two').value);
-var side three=parseInt(document.getElementById('side three').value);
-var answer=document.getElementById('answer');
-if(side1+side2>side3 && side2+side3>side1 && side1+side3>side2) {
-  if (side1==side2&&side1==side3) {
-    answer.textContent='Equilateral: All sides are equal!';
+var sideone=parseInt(document.getElementById('sideone').value);
+var sidetwo=parseInt(document.getElementById('sidetwo').value);
+var sidethree=parseInt(document.getElementById('sidethree').value);
+var answer=document.querySelector('#answer');
+if(sideone+sidetwo>sidethree && sidetwo+sidethree>sideone && sideone+sidethree>sidetwo) {
+  if (sideone==sidetwo&&sideone==sidethree) {
+    answer.innerHTML="Equilateral";
 }
-else if (side one===side two||side two===side three||side one===side three){
-  answer.textContent='Isosceles: Two sides are equal!'
+else if (sideone===sidetwo||sidetwo===sidethree||sideone===sidethree){
+  answer.innerHTML="Isosceles";
 }
 
 else{
-   answer.textContent="Scalene: No sides are equal!";
+   answer.innerHTML="Scalene";
  }
-}
+ 
 else{
-  answer.textContent="Not a triangle";
+  answer.innerHTML="Not a triangle";
 }
-}
-function reset(){
-  var side1=parseInt(document.getElementById('side one').value);
-  var side2=parseInt(document.getElementById('side2').value);
-  var side3=parseInt(document.getElementById('side3').value);
-  var answer=document.getElementById('answer');
+
 }

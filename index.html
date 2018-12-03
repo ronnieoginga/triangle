@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Triangle tracker</title>
-    <script src="js/scripts.js"></script>
+    <script src="index.js"></script>
       <link href="style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
@@ -26,23 +26,25 @@
       </ul>
     </nav>
     </div>
+      <p id='answer'></p>
 <div class="frm">
 
 
     <form>
       <div class="form">
+        <input type="number"id="sideone"
+        placeholder="side one" required><br><br>
 
-  <input type="number"id="side-one"
-  placeholder="side one" required><br><br>
+        <input type="number"id="sidetwo"
+        placeholder="side two" required><br><br>
 
-  <input type="number"id="side-two"
-  placeholder="side two" required><br><br>
+        <input type="number"id="sidethree"
+        placeholder="side three" required><br><br>
 
-  <input type="number"id="side-three"
-  placeholder="side three" required><br><br>
 
-   <input type="submit"id="Submit">
-  </div>
+         <button onClick="result()">Submit</button>
+
+      </div>
    </form>
 </div>
 <p></p>
