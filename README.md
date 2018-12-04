@@ -10,3 +10,4 @@ The leagal author of this website is Ronald Oginga
 ## Contact
 Find me at oginga001ronney@gmail.com
 ## License
+This project is licensed under the github License - see the LICENSE.md file for details.
