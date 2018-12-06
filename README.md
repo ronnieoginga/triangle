@@ -11,7 +11,8 @@ The leagal author of this website is Ronald Oginga
 Find me at oginga001ronney@gmail.com
 ## License
 This project is licensed under the github License - see the LICENSE.md file for details.
-##BDD
+
+##The BDD
 The program is all about types of a triangle.
 The user has to come up with the dimensions which in the case will be his data
 the dimensions are then inserted in the form boxes provided as per the sides
